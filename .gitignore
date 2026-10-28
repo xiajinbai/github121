@@ -1,0 +1,28 @@
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# WorkBuddy 工作区内部数据（会话、记忆等，不上传）
+.workbuddy/
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 环境变量与密钥（切勿提交）
+.env
+.env.*
+*.pem
+*.key
